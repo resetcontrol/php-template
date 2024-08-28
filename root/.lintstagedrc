@@ -1,0 +1,4 @@
+{
+  "*.{json,md,php}": "prettier --list-different",
+  "*.md": "markdownlint-cli2"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "php-template",
+  "description": "Template for PHP projects",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write --cache . !root",
+    "lint:md": "markdownlint-cli2 **/*.md !node_modules !root",
+    "deps:check": "ncu",
+    "deps:update": "ncu --upgrade && npm install"
+  },
+  "devDependencies": {
+    "editorconfig": "^2.0.0",
+    "markdownlint-cli2": "^0.13.0",
+    "npm-check-updates": "^16.14.20",
+    "prettier": "^3.3.3"
+  }
+}

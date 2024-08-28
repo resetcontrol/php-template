@@ -1,0 +1,11 @@
+# nodejs dependencies
+node_modules/
+
+# environment configuration files
+.env
+.env.*
+
+# temporary files and folders
+tmp/
+*.tmp
+*.log

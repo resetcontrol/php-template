@@ -1,0 +1,6 @@
+# nodejs dependencies
+node_modules/
+package-lock.json
+
+# temporary files
+*.log
