@@ -23,8 +23,12 @@ git hooks._
 
 ### Post-install
 
-- Change project name and description in `README.md` and `package.json`
-- Change project name in `package-lock.json`
+- Change project name and description in `package.json`
+- Change project name (multiple instances) in `package-lock.json`
+- Change project name (multiple instances) and description in `README.md`
+- Review `[TODO]` comments in `README.md`
+- Change page title in `index.php`
+- Change app title in `src/app.php`
 
 ## What's included
 

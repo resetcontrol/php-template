@@ -1,10 +1,29 @@
 {
-  "parser": "php",
-  "plugins": ["@prettier/plugin-php"],
-  "phpVersion": "5.3",
-  "singleQuote": false,
-  "trailingCommaPHP": false,
-  "braceStyle": "1tbs",
   "printWidth": 80,
-  "proseWrap": "always"
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "proseWrap": "always"
+      }
+    },
+    {
+      "files": "*.php",
+      "options": {
+        "plugins": ["@prettier/plugin-php"],
+        "parser": "php",
+        "phpVersion": "5.3",
+        "singleQuote": false,
+        "trailingCommaPHP": false,
+        "braceStyle": "1tbs"
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
 }

@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "format": "prettier --write --cache .",
-    "lint:md": "markdownlint-cli2 **/*.md !node_modules",
+    "format:check": "prettier --list-different . | xargs prettier --debug-check",
+    "format:file": "prettier --write --cache",
+    "format:all": "npm run format:file .",
+    "lint:md": "markdownlint-cli2 **/*.md !node_modules !vendor !polyfills",
     "deps:check": "ncu",
     "deps:update": "ncu --upgrade && npm install",
     "lint-staged": "lint-staged",

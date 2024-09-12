@@ -1,0 +1,3 @@
+<?php
+// Form action handler
+?>
