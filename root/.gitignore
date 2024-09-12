@@ -1,9 +1,12 @@
-# nodejs dependencies
+# npm dependencies
 node_modules/
+package-lock.json
+
+# composer dependencies
+# vendor/
 
 # environment configuration files
 .env
-.env.*
 
 # temporary files and folders
 tmp/
