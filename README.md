@@ -2,7 +2,7 @@
 
 [![Code style: Prettier](https://img.shields.io/badge/Code_style-Prettier-ff69b4.svg)](https://prettier.io/)
 
-Template for [PHP](https://www.php.net/) projects.
+Template for [PHP](https://www.php.net/) `v5.3` projects.
 
 ## Usage
 
@@ -52,17 +52,60 @@ git hooks._
 
 ```text
 ./
+  lib/
+  polyfills/
+  public/
   src/
-    index.php
+    actions/
+    db/
+    utils/
+    views/
+    app.php
+    init.php
+    router.php
+    styles.css
+  vendor/
+  index.php
 ```
 
 ### `./`
 
 The root of the project. It contains all the config files and directories.
 
+### `lib/`
+
+Dependency resolution for libraries under `vendor/`.
+
+_This will be removed once we use [composer](https://getcomposer.org/) which
+requires php `v5.5` or greater._
+
+### `polyfills/`
+
+Implementation of PHP features included in versions greater than `5.3`.
+
 ### `src/`
 
 Where the development happens. It contains the source files.
+
+### `src/actions/`
+
+Form action handlers.
+
+### `src/db/`
+
+SQL queries.
+
+### `src/utils/`
+
+General-purpose utility functions.
+
+### `src/views/`
+
+SPA views.
+
+### `vendor/`
+
+3rd-party dependencies.
 
 ## NPM scripts
 
