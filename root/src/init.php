@@ -12,7 +12,7 @@ $db = null;
 try {
   $db = odbc_connect(getenv("ODBC_NAME"), "", "");
 } catch (Exception $exception) {
-  echo iconv('ISO-8859-1', 'UTF-8', $exception->getMessage());
+  echo iconv("ISO-8859-1", "UTF-8", $exception->getMessage());
 }
 
 function db() {

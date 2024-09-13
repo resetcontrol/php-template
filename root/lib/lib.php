@@ -1,3 +1,3 @@
 <?php
-require 'phpdotenv.php';
+require "phpdotenv.php";
 ?>

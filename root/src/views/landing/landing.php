@@ -1,3 +1,3 @@
 <?php function landing() {
-  require 'landing.template.php';
+  require "landing.template.php";
 } ?>

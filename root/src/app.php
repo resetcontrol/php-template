@@ -1,7 +1,7 @@
 <?php
-require 'utils/utils.php';
-require 'init.php';
-require 'router.php';
+require "utils/utils.php";
+require "init.php";
+require "router.php";
 
 if (!init()) {
   return;
