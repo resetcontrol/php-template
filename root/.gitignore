@@ -1,9 +1,11 @@
-# nodejs dependencies
+# npm dependencies
 node_modules/
+
+# composer dependencies
+# vendor/
 
 # environment configuration files
 .env
-.env.*
 
 # temporary files and folders
 tmp/

@@ -1,0 +1,8 @@
+{
+  "config": {
+    "default": true,
+    "no-duplicate-heading": { "siblings_only": true },
+    "line-length": { "code_blocks": false }
+  },
+  "ignores": ["**/vendor/**", "**/polyfills/**"]
+}
