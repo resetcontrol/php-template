@@ -7,7 +7,7 @@
     "format:check": "prettier --list-different . | xargs prettier --debug-check",
     "format:file": "prettier --write --cache",
     "format:all": "npm run format:file .",
-    "lint:md": "markdownlint-cli2 **/*.md !node_modules !vendor !polyfills",
+    "lint:md": "markdownlint-cli2 **/*.md",
     "deps:check": "ncu",
     "deps:update": "ncu --upgrade && npm install",
     "lint-staged": "lint-staged",
