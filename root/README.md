@@ -29,7 +29,7 @@ Create an `.env` file at the root of the project from the `.env.example`.
 cp .env.example .env
 ```
 
-Update the `.env` file with the proper values of your development environment:
+Update the `.env` file with the proper values for your development environment:
 
 _[TODO]: Add required environment variables and how to configure them._
 

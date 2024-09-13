@@ -27,8 +27,9 @@ git hooks._
 - Change project name (multiple instances) in `package-lock.json`
 - Change project name (multiple instances) and description in `README.md`
 - Review `[TODO]` comments in `README.md`
-- Change page title in `index.php`
+- Change page title and favicon in `index.php`
 - Change app title in `src/app.php`
+- Change default content in `src/views/landing/landing.php`
 
 ## What's included
 
